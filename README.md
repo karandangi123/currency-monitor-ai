@@ -1,16 +1,37 @@
-# 💱 AI-Powered Currency Rate Monitor (RAG Orchestrator)
+# 💹 AI Currency Monitor: Financial Risk Intelligence
 
-### Overview
-A sophisticated financial automation engine built on **n8n** that monitors global currency fluctuations. This project utilizes **Retrieval-Augmented Generation (RAG)** to provide context-aware analysis of forex data, moving beyond simple price alerts to intelligent trend forecasting.
+**Real-time deterministic monitoring for global currency fluctuations.**
 
-### 🧠 The Logic
-1. **Ingestion:** Receives real-time currency data via Webhooks.
-2. **Vectorization:** Processes and embeds data using **OpenAI (text-embedding-3-small)**.
-3. **Contextual Retrieval:** Stores and queries historical trends in a **Weaviate Vector Database**.
-4. **Agentic Reasoning:** A **LangChain Agent** synthesizes historical context with live rates to generate actionable insights.
-5. **Reporting:** Automatically updates Google Sheets and triggers Slack alerts for high-volatility events.
+---
 
-### 🚀 Deployment
-1. `docker-compose up -d`
-2. Import `workflows/currency_rate_monitor.json` into n8n.
-3. Configure your OpenAI and Weaviate credentials in the `.env` file.
+## 📉 The Business Problem
+Global businesses and traders lose millions due to unmonitored currency volatility. Human-led monitoring is slow, prone to error, and lacks the immediate reaction speed required in modern markets.
+
+## 💡 The Solution
+This AI-powered monitor provides **Autonomous Market Analysis**. It tracks real-time exchange rates and uses deterministic logic to trigger alerts, hedge suggestions, and automated reporting.
+
+---
+
+## 🚀 Key Features
+- ⚡ **Real-Time Webhooks**: Instant notification of market shifts.
+- 🤖 **AI-Driven Summaries**: Converts complex market data into human-readable risk reports.
+- 🛠️ **Automated Workflows**: Built on n8n for maximum reliability and scalability.
+- 🛡️ **Risk Mitigation**: Designed to help users avoid "Flash Crashes" and high-slippage events.
+
+## 🏗️ Technical Architecture
+- **Orchestration**: n8n
+- **Intelligence**: OpenAI (Analysis) + Financial APIs (Data)
+- **Reporting**: Automated Slack / Email / Telegram integration
+- **Security**: Hardened environment with secret protection
+
+---
+
+## 🛠️ Quick Start
+1. Import the `.json` workflow into your n8n environment.
+2. Connect your preferred Exchange Rate API.
+3. Define your threshold triggers in the monitoring node.
+
+---
+
+## 📄 License
+MIT License. Created by karandangi123.
