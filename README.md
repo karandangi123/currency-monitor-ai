@@ -35,3 +35,7 @@ This AI-powered monitor provides **Autonomous Market Analysis**. It tracks real-
 
 ## 📄 License
 MIT License. Created by karandangi123.
+
+---
+### 📫 Connect with Me
+[LinkedIn](https://www.linkedin.com/in/karan-dangi-4a672925b)
